@@ -6,14 +6,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 :root {
   --primary-color: crimson;
   --secondary-color: #2c2c2c;
   --bgcolor: #eae9e9;
   --white: #fff;
 }
-
 header {
   padding: 20px;
   width: 100%;
@@ -160,40 +158,35 @@ header {
   background-color: var(--bgcolor);
   margin-top: 30px;
 }
-
 .reviews {
   text-align: center;
 }
-
 .reviews img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
   object-fit: cover;
 }
-
 .reviews h3 {
   font-size: 25px;
   text-align: center;
 }
-
 .reviews p {
   color: #707070;
   font-style: italic;
 }
 
 /* New Update */
+
 .up-center-text h2 {
   text-align: center;
   font-size: 25px;
   margin: 30px;
 }
-
 .cart img {
   width: 380px;
   border-radius: 10px;
 }
-
 .update-cart{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, auto));
@@ -227,7 +220,8 @@ header {
     scale: 0.95;
 }   
 
-/* Location */
+/* Location Start */
+
 .location{
     text-align: center;
     display: flex;
@@ -239,12 +233,12 @@ header {
     color: gray;
     font-style: italic;
 }
-/* contact */
+
+/* contact Start */
+
 .contact{
     background-color: var(--bgcolor);
     margin-top: 30px;
-    /* text-align: center; */
-    
 }
 .contact-info{
     display: grid;
@@ -291,6 +285,7 @@ header {
 }
 
 /* Responsive */
+
 @media(max-width:700px){
     header{
         display: flex;
@@ -318,7 +313,6 @@ header {
         transition: .5s;
         opacity: 0.6;
     }
-    
     .contact-info{
      justify-content: space-between;
      font-size: 13px;
