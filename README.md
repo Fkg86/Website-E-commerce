@@ -17,4 +17,4 @@ A responsive website project was developed.
 
 # GIF
 
-![](HTML_CSS_E-commerce_website.gif)
+![](HTML_CSS_E-commercewebsite.gif)
